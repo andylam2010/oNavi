@@ -1,0 +1,8 @@
+.oNavi { height: 32px; background: url(../images/sprites.gif) repeat-x 0 -96px; border-bottom: 1px solid #D9D9D9; }
+  .oNavi_list { list-style: none; font-size: 13px; }
+    .oNavi_item { float: left; line-height: 32px; }
+      .oNavi_subject { display: block; height: 32px; padding: 0 28px 0 12px; background: url(../images/sprites.gif) no-repeat right top; color: #777; text-decoration: none; }
+      .oNavi_hover .oNavi_subject { background-position: right -32px; }
+      .oNavi_hover_prev .oNavi_subject { background-position: right -64px; }
+    .oNavi_first { font-size: 14px; font-weight: bold; color: #333; }
+    .oNavi_last .oNavi_subject { background: none; }
